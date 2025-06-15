@@ -1,6 +1,6 @@
 {
   "name": "@joshuarileydev/coolify-mcp-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MCP server for Coolify integration",
   "main": "dist/index.js",
   "bin": {
