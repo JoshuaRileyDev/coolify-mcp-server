@@ -1,12 +1,16 @@
 {
   "name": "@joshuarileydev/coolify-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Coolify integration",
   "main": "dist/index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshuaRileyDev/coolify-mcp-server"
+  },
   "scripts": {
     "build": "tsc && npx @modelcontextprotocol/inspector node dist/index.js",
-    "dev": "tsx src/index.ts",
+    "dev": "tsx src/index.ts", 
     "start": "node dist/index.js",
     "lint": "eslint src --ext .ts",
     "typecheck": "tsc --noEmit"
