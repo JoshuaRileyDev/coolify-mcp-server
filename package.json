@@ -1,6 +1,6 @@
 {
   "name": "@joshuarileydev/coolify-mcp-server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "MCP server for Coolify integration",
   "main": "dist/index.js",
   "bin": {
@@ -21,7 +21,7 @@
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
     "lint": "eslint src --ext .ts",
-    "publish": "git add . && git commit -m 'update' && git push && npm publish",
+    "publish": "git add . && git commit -m 'update' && git push",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
@@ -33,7 +33,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@joshuarileydev/coolify-client": "^1.0.0",
+    "@joshuarileydev/coolify-client": "^1.0.1",
     "@modelcontextprotocol/sdk": "^0.6.0",
     "axios": "^1.6.0",
     "dotenv": "^16.3.0",
