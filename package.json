@@ -1,6 +1,6 @@
 {
   "name": "@joshuarileydev/coolify-mcp-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for Coolify integration",
   "main": "dist/index.js",
   "bin": {
@@ -18,16 +18,22 @@
   },
   "scripts": {
     "build": "tsc && npx @modelcontextprotocol/inspector node dist/index.js",
-    "dev": "tsx src/index.ts", 
+    "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
     "lint": "eslint src --ext .ts",
     "publish": "git add . && git commit -m 'update' && git push && npm publish",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["mcp", "coolify", "server", "typescript"],
+  "keywords": [
+    "mcp",
+    "coolify",
+    "server",
+    "typescript"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@joshuarileydev/coolify-client": "^1.0.0",
     "@modelcontextprotocol/sdk": "^0.6.0",
     "axios": "^1.6.0",
     "dotenv": "^16.3.0",

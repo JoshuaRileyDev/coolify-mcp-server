@@ -11,8 +11,8 @@ import {
   McpError,
   ReadResourceRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
-import { CoolifyClient } from './coolify-client.js';
-import { CoolifyConfigSchema } from './types.js';
+import { CoolifyClient } from '@joshuarileydev/coolify-client';
+import { CoolifyConfigSchema } from '@joshuarileydev/coolify-client';
 
 class CoolifyMcpServer {
   private server: Server;

@@ -3,8 +3,8 @@ import 'dotenv/config';
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { CallToolRequestSchema, ErrorCode, ListResourcesRequestSchema, ListToolsRequestSchema, McpError, ReadResourceRequestSchema, } from '@modelcontextprotocol/sdk/types.js';
-import { CoolifyClient } from './coolify-client.js';
-import { CoolifyConfigSchema } from './types.js';
+import { CoolifyClient } from '@joshuarileydev/coolify-client';
+import { CoolifyConfigSchema } from '@joshuarileydev/coolify-client';
 class CoolifyMcpServer {
     server;
     coolifyClient;
